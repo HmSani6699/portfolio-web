@@ -34,7 +34,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 150px;
+    padding: 50px 150px;
 }
 
 nav ul {
@@ -226,6 +226,10 @@ footer {
     margin-bottom: 30px;
 }
 
+.connect a {
+    margin-right: 24px;
+}
+
 .login-form {
     margin-left: 100px;
 }
@@ -236,15 +240,10 @@ footer {
     margin-bottom: 25px;
 }
 
-.login-form input {
+.login-form input,
+textarea {
     border: none;
     padding: 10px;
     margin-bottom: 20px;
-    width: 400px;
-}
-
-.login-form textarea {
-    border: none;
-    margin-bottom: 24px;
-    width: 400px;
+    width: 100%;
 }
