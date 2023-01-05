@@ -90,7 +90,8 @@ nav li {
 }
 
 /* main section */
-main {
+main,
+.connect {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -191,4 +192,59 @@ main {
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 30px;
+}
+
+/* cv button style */
+.download-cv-btn {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/* footer section style */
+footer {
+    background-color: #FFF8F3;
+    margin-top: 110px;
+}
+
+.connect {
+    display: flex;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.connect-title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.connect-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.login-form {
+    margin-left: 100px;
+}
+
+.form-title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.login-form input {
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.login-form textarea {
+    border: none;
+    margin-bottom: 24px;
+    width: 400px;
 }
