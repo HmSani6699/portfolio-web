@@ -135,6 +135,7 @@ main {
     display: flex;
     margin-top: 50px;
     margin-bottom: 160px;
+    gap: 25px;
 }
 
 .what-i-do-skill-info {
@@ -155,4 +156,39 @@ main {
     color: #757575;
     font-weight: 400;
     font-size: 16px;
+}
+
+/* my resume section style */
+.all-resume-info {
+    margin-top: 110px;
+    display: flex;
+    gap: 70px;
+}
+
+.education-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.education-sub-title {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.education-date {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.education-description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
 }
