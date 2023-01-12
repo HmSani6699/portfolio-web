@@ -383,3 +383,118 @@ textarea {
         width: 95%;
     }
 }
+
+@media screen and (min-width:576px) and (max-width:786px) {
+
+    /* banner part */
+    .header {
+        background: none;
+    }
+
+    .banner-part {
+        flex-direction: column-reverse;
+        margin: 10px;
+    }
+
+    nav {
+        padding: 30px 0 40px 10px;
+    }
+
+    .banner-sub-title {
+        font-size: 40px;
+        margin-top: 65px;
+    }
+
+    .banner-title {
+        font-size: 67px;
+    }
+
+    .banner-description {
+        text-align: center;
+    }
+
+    .contact-btn {
+        margin-left: 0;
+    }
+
+    .banner-img {
+        background-image: url("../images/header_bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 103%;
+    }
+
+    .banner-img img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .banner-part-button {
+        display: inline-block;
+    }
+
+    .banner-part-button .btn-primary {
+        margin: 5px 10px;
+    }
+
+    .banner-part-button .contact-btn {
+        margin: 5px 50px;
+    }
+
+    /*About me part  */
+    .about-me {
+        padding: 50px 10px;
+        margin-top: 80px 0 70px 0;
+    }
+
+    .about-parsonal-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    /* my skill info part */
+    .what-i-do-info {
+        padding: 10px;
+    }
+
+    .what-i-do-skill {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 15px;
+        margin-bottom: 100px;
+    }
+
+    /* resume section */
+    .all-resume-info {
+        padding: 15px;
+        margin-top: 60px;
+    }
+
+    /* footer */
+    .connect {
+        padding: 0 15px 0 15px;
+        flex-direction: column;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+
+    .footer-info {
+        text-align: center;
+    }
+
+    .login-form {
+        margin: 60px 0 0 0;
+    }
+
+    .footer-copy-text {
+        margin-top: 30px;
+    }
+
+    .login-form input,
+    textarea {
+        width: 95%;
+    }
+}
