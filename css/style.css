@@ -3,6 +3,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
 .btn-primary {
     background-color: #FD6E0A;
     font-weight: 700px;
@@ -90,6 +95,7 @@ nav li {
 }
 
 /* main section */
+
 main,
 .connect {
     max-width: 1140px;
@@ -246,4 +252,56 @@ textarea {
     padding: 10px;
     margin-bottom: 20px;
     width: 100%;
+}
+
+main,
+footer {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+
+    nav,
+    nav ul,
+    .banner-part {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .banner-part {
+        margin: 10px;
+    }
+
+    nav {
+        padding: 30px 0 40px 0;
+    }
+
+    .banner-sub-title {
+        font-size: 40px;
+    }
+
+    .banner-title {
+        font-size: 67px;
+    }
+
+    .banner-description {
+        text-align: center;
+    }
+
+    .contact-btn {
+        margin-left: 0;
+    }
+
+    .banner-img img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+
+
+    .header {
+        background: none;
+    }
 }
