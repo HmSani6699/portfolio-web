@@ -319,8 +319,8 @@ textarea {
 
     /*About me part  */
     .about-me {
-        padding: 10px;
-        margin-top: 100px 0 100px 0;
+        padding: 50px 10;
+        margin-top: 90px 0 100px 0;
     }
 
     .about-parsonal-info {
@@ -336,11 +336,12 @@ textarea {
 
     .what-i-do-skill {
         flex-direction: column;
-        margin-bottom: 90px;
+        margin-bottom: 55px;
     }
 
     .what-i-do-skill-info {
         text-align: center;
+        margin: 0 10px;
     }
 
     /* resume section */
@@ -357,6 +358,14 @@ textarea {
     }
 
     /* footer */
+    .connect {
+        padding-top: 50px;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+
     .footer-info {
         text-align: center;
     }
