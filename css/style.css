@@ -259,6 +259,7 @@ textarea {
     margin-bottom: 20px;
 }
 
+/* small device responsive*/
 @media screen and (max-width:576px) {
 
     nav,
@@ -384,6 +385,7 @@ textarea {
     }
 }
 
+/* medium device responsive*/
 @media screen and (min-width:576px) and (max-width:786px) {
 
     /* banner part */
@@ -498,3 +500,5 @@ textarea {
         width: 95%;
     }
 }
+
+/*large device responsive*/
