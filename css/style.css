@@ -254,6 +254,11 @@ textarea {
     width: 100%;
 }
 
+.footer-copy-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 @media screen and (max-width:576px) {
 
     nav,
@@ -331,12 +336,41 @@ textarea {
 
     .what-i-do-skill {
         flex-direction: column;
-        margin-bottom: 100px;
+        margin-bottom: 90px;
     }
 
-    .all-resume-info {
+    .what-i-do-skill-info {
+        text-align: center;
+    }
+
+    /* resume section */
+
+    .all-resume-info,
+    .connect {
         flex-direction: column;
         padding: 10px;
     }
 
+    .all-resume-info {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    /* footer */
+    .footer-info {
+        text-align: center;
+    }
+
+    .login-form {
+        margin: 60px 0 0 0;
+    }
+
+    .footer-copy-text {
+        margin-top: 30px;
+    }
+
+    .login-form input,
+    textarea {
+        width: 95%;
+    }
 }
